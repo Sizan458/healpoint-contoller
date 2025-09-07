@@ -18,7 +18,7 @@ const AppContextProvider = (props) => {
     const dateArray = slotDate.split("_");
     return `${dateArray[0]} ${months[Number(dateArray[1])]} ${dateArray[2]}`;
   };
-  const currencySymbol = '$';
+  const currencySymbol = '৳';
    const value ={
      calculateAge,
      slotDateFormat,
